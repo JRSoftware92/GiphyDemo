@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.giphydemo.fragment.EnlargedImageFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_source"
+        android:padding="@dimen/padding_text_source"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview_enlarged_image"
+        android:layout_above="@id/textview_source"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

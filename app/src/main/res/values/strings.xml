@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GiphyDemo</string>
+    <string name="api_key_giphy">dc6zaTOxFJmzC</string>
+    <string name="api_url_giphy_base">http://api.giphy.com</string>
+    <string name="api_url_giphy_search">/v1/gifs/search</string>
+
+    <string name="text_search">Search</string>
+</resources>
